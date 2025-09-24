@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        /* الثيم الليلي */
+.dark-mode {
+    background: #1e1e1e !important;
+    color: #ffffff;
+}
+
+.dark-mode .content-box {
+    background: #333 !important;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .header,
+.dark-mode .footer {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* زر تبديل الثيم */
+.theme-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.theme-btn:hover {
+    background: #e68900;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <h1 class="logo">My Sites</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="main">
+        <section class="container">
+            <h2>Welcome to My Sites</h2>
+            <p><b>My name is:</b> <mark>Asad Abd Alhmed Alsaedy</mark></p>
+            <p>To learn more information about me, click on the link below:</p>
+            <a href="aboutme.html" class="extra-link">Click Here</a>
+        </section>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <p>&copy; 2025 My Sites | All Rights Reserved</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
